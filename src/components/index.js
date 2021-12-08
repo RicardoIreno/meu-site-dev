@@ -1,3 +1,4 @@
-import Template from "./Template"
+import Template from "./Template/Template"
+import SiteHeader from "./SiteHeader/SiteHeader"
 
-export { Template }
+export { Template, SiteHeader }
