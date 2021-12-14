@@ -6,16 +6,20 @@ type Props = {
   children: ReactNode
 }
 
-const AboutWrapper = ({children}: Props ) => {
+
+export default function AboutWrapper({children}: Props )  {
 	return (
 
-		<Wrapper>
+		<DefaultWrapper>
 
-      {children}
+			<Wrapper>
 
-		</Wrapper>
+				{children}
+
+			</Wrapper>
+
+		</DefaultWrapper>
 	)
 }
 
-// export default AboutWrapper
-export default ({ children }: Props) => <DefaultWrapper>{children}</DefaultWrapper>
+

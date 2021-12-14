@@ -12,7 +12,7 @@ const MenuHeader = () => {
         </Link>{' | '}
         <Link href='/about'>
           <a>About</a>
-        </Link>
+        </Link>{' | '}
         <Link href='/test'>
           <a>Test</a>
         </Link>

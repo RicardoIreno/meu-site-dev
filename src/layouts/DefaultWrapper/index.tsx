@@ -6,11 +6,10 @@ type Props = {
   children: ReactNode
 }
 
-const DefaultWrapper = ({children}: Props ) => {
+export default function DefaultWrapper ({children}: Props ) {
 	return (
 		<>
 			<SiteHeader />
-			<h3>lala</h3>
 			
 			<Wrapper>
 
@@ -23,4 +22,3 @@ const DefaultWrapper = ({children}: Props ) => {
 	)
 }
 
-export default DefaultWrapper

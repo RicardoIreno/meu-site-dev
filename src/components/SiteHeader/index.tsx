@@ -9,7 +9,11 @@ const SiteHeader = () => {
 
 		<Wrapper>
 
-			<h2>Oi, eu sou o Header!</h2>
+			<Link href={'/'}>
+				<a>
+					<h2>Ricado Ireno</h2>
+				</a>
+			</Link>
 
 			<MenuHeader />
 			
