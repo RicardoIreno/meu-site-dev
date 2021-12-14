@@ -20,4 +20,7 @@ Projeto do meu portfólio desenvolvido usando Next.js e Typescript.
 - React with TypeScript Cheatsheet: https://blog.bitsrc.io/react-with-typescript-cheatsheet-9dd891dc5bfe#6111
 - React TypeScript Cheatsheets: https://react-typescript-cheatsheet.netlify.app
 
+### MDX
+- https://nextjs.org/docs/advanced-features/using-mdx
+- https://spacejelly.dev/posts/how-to-source-mdx-content-in-next-js-to-dynamically-create-pages-for-a-blog/
 -----------------------------------------------------------------------------

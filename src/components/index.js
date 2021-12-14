@@ -1,4 +1,6 @@
+import MenuHeader from "./MenuHeader"
 import SiteHeader from "./SiteHeader"
-import AboutWrapper from "./AboutWrapper"
+import SiteFooter from "./SiteFooter"
 
-export { AboutWrapper, SiteHeader }
+
+export { MenuHeader, SiteHeader, SiteFooter }

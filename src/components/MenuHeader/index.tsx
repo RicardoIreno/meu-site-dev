@@ -10,8 +10,11 @@ const MenuHeader = () => {
         <Link href='/'>
           <a>Home</a>
         </Link>{' | '}
-        <Link href='/About'>
+        <Link href='/about'>
           <a>About</a>
+        </Link>
+        <Link href='/test'>
+          <a>Test</a>
         </Link>
       </nav>
 
