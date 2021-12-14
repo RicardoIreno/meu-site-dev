@@ -1,4 +1,4 @@
-import Template from "./Template"
 import SiteHeader from "./SiteHeader"
+import AboutWrapper from "./AboutWrapper"
 
-export { Template, SiteHeader }
+export { AboutWrapper, SiteHeader }

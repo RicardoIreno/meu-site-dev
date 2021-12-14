@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Template, SiteHeader } from '../components'
+import { SiteHeader } from '../components'
 
 export default function Home() {
   return (
@@ -14,9 +14,8 @@ export default function Home() {
       <SiteHeader />
 
       <main>
-        <h1>Rodou?</h1>
+        <h1>Home</h1>
 
-        <Template>Deu certo?</Template>
       </main>
 
       <footer>

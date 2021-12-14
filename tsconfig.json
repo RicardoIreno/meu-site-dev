@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    // "baseUrl": "src",
     "outDir": "./dist/",
     "noImplicitAny": true,
     "module": "esnext",
@@ -24,9 +25,13 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx", 
+    "**/*.js",
+    "**/*.jsx"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    ".next", 
+    "out"
   ]
 }

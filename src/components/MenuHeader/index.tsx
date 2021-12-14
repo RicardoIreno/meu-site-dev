@@ -7,10 +7,10 @@ const MenuHeader = () => {
 
 		<Wrapper>
       <nav>
-        <Link href="/">
+        <Link href='/'>
           <a>Home</a>
         </Link>{' | '}
-        <Link href="/">
+        <Link href='/About'>
           <a>About</a>
         </Link>
       </nav>
