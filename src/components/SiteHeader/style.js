@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import theme from '../../styles/theme'
 
 export const Wrapper = styled.header`
   top: 0;
@@ -7,7 +8,10 @@ export const Wrapper = styled.header`
   width: 100%;
   display: flex;
   flex-direction: row;
-  font-size: 1.3rem;
   border: solid 1px red;
-`
+  `
 
+export const SiteName = styled.span`
+  font-size: ${theme.sizes.h2};
+  color: ${theme.colors.headings};
+`

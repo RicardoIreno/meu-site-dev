@@ -1,7 +1,8 @@
 import React from 'react'
-import { Wrapper } from './style'
+import { Wrapper, SiteName } from './style'
 import Link from 'next/link'
 import MenuHeader from '../MenuHeader'
+import configs from '../../configs/configs' 
 
 
 const SiteHeader = () => {
@@ -11,7 +12,7 @@ const SiteHeader = () => {
 
 			<Link href={'/'}>
 				<a>
-					<h2>Ricado Ireno</h2>
+					<SiteName>{configs.site.name}</SiteName>
 				</a>
 			</Link>
 
