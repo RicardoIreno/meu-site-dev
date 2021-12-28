@@ -11,7 +11,7 @@ type Props = {
 const HomeCard = ({children, title}: Props) => {
   return(
     <Wrapper>
-       <p>title</p>
+       <p>{title}</p>
       
         {children}
 
