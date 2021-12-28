@@ -1,17 +1,20 @@
 import styled from 'styled-components'
 import theme from '../../styles/theme'
+import Image, { ImageProps } from 'next/image'
 
-// type props = {
-//   img: string
-// }
+type Props = {
+  img?: string
+}
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.div<Props>`
   display: flex;
   width: 300px;
-  height: 300px;
-  border: 1px solid red;
+  height: 400px;
+  margin: 1rem;
   flex-direction: column;
   align-items: center;
+  background-image: url(${ props => props.img });
+  background-size: cover;
 `
 
 export const Title = styled.span`
@@ -20,9 +23,4 @@ export const Title = styled.span`
   color: ${theme.colors.HomeCardTitle};
 `
 
-export const Img = styled.img`
-  width: 100%;
-  box-sizing: border-box;
-
-`
 
