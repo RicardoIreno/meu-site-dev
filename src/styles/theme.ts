@@ -1,11 +1,13 @@
 const theme = {
   colors: {
+    body: '#fafafa',
     background: '#fff',
     text: '#000',
     heading1: '#474747',
     headings: '#474747',
     menus: '#6b6b6b',
     HomeCardTitle: '#6b6b6b',
+    headerbg: '#fff',
 
   },
   sizes: {

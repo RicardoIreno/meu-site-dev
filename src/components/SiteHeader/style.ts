@@ -10,10 +10,13 @@ export const Wrapper = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: ${theme.colors.headerbg};
+  box-shadow: 0px -6px 10px 0px #000000;
   
   @media ${breakpoint.mdUp} {
     flex-direction: row;
     justify-content: space-between;
+    padding: .6rem 2rem;
   } 
   `
 

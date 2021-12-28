@@ -4,14 +4,19 @@ Projeto do meu portfólio desenvolvido usando Next.js e Typescript.
 
 ## Projeto do site
 
-- [x] init
-- [x] Commit inicial
+**Init**
 - [x] Infos básicas do README
-- [x] Limpar os arquivos iniciais
-- [x] Testando um componente genérico
-- [x] Typescript adicionado
-- [] adicionar o mdx
-- [] modificações para utilizar o mdx
+- [x] Typescript
+- [x] mdx
+- [x] separar as configs
+
+**Parte dos site**
+- [x] Header
+- [] Home
+- [] Pages
+- [] Footer
+
+
 
 ## refs
 
