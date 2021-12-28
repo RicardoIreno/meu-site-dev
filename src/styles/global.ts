@@ -30,4 +30,6 @@ export default createGlobalStyle`
   h2, h3, h4 {
     font-family: ${props => props.theme.tipography.headings};
   }
+
+
 `

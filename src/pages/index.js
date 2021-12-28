@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { SiteHeader } from '../components'
+import { SiteFooter, SiteHeader } from '../components'
+import SiteMain from '../components/HomeCard'
 
 export default function Home() {
   return (
@@ -13,14 +14,9 @@ export default function Home() {
 
       <SiteHeader />
 
-      <main>
-        <h1>Home</h1>
-
-      </main>
-
-      <footer>
-
-      </footer>
+      <SiteMain />
+        
+      <SiteFooter />
     </div>
   )
 }

@@ -19,6 +19,7 @@ Projeto do meu portfólio desenvolvido usando Next.js e Typescript.
 - How to Use TypeScript with React Components: https://dmitripavlutin.com/typescript-react-components/
 - React with TypeScript Cheatsheet: https://blog.bitsrc.io/react-with-typescript-cheatsheet-9dd891dc5bfe#6111
 - React TypeScript Cheatsheets: https://react-typescript-cheatsheet.netlify.app
+- https://www.mariokandut.com/projects/
 
 ### MDX
 - https://nextjs.org/docs/advanced-features/using-mdx
