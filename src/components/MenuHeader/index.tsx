@@ -1,12 +1,12 @@
 import React from 'react'
-import { Wrapper } from './style'
+import { Wrapper, Nav } from './style'
 import Link from 'next/link' 
 
 const MenuHeader = () => {
 	return (
 
 		<Wrapper>
-      <nav>
+      <Nav>
         <Link href='/'>
           <a>Home</a>
         </Link>{' | '}
@@ -16,7 +16,7 @@ const MenuHeader = () => {
         <Link href='/test'>
           <a>Test</a>
         </Link>
-      </nav>
+      </Nav>
 
 		</Wrapper>
 	)
