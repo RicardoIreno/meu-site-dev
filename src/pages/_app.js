@@ -1,7 +1,7 @@
 import { ThemeProvider } from 'styled-components'
+import {theme} from '../configs'
+import GlobalStyle from '../configs/global'
 import '../styles/fonts.css'
-import theme from '../styles/theme.ts'
-import GlobalStyle from '../styles/global'
 
 function MyApp({ Component, pageProps }) {
   return(

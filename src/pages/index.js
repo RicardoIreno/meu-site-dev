@@ -1,10 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { HomeCard, SiteFooter, SiteHeader } from '../components'
-import { DefaultWrapper } from '../layouts'
+import HomeCard from '../components/molecules/HomeCard'
+import Default from '../components/templates/Default'
 import img1 from '../../public/test.jpg'
-
-// const img1 = '../../public/test.jpg'
 
 export default function Home() {
   return (
@@ -15,9 +12,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <DefaultWrapper>
+      
 
-
+      <Default>
 
         <p>oi</p>
         <HomeCard img={img1.src}>
@@ -25,7 +22,7 @@ export default function Home() {
         </HomeCard>
 
 
-      </DefaultWrapper>
+      </Default>
 
     </>
   )

@@ -12,7 +12,7 @@ const sizes: sizesProps = {
   gg: 2560
 }
 
-export const breakpoint = {
+const breakpoint = {
   sm:   `(max-width: ${sizes.sm}px)`,
   smUp: `(min-width: ${sizes.sm + 1}px)`,
   md:   `(max-width: ${sizes.md}px)`,
@@ -22,4 +22,5 @@ export const breakpoint = {
 };
 
 
+export default breakpoint
 //   @media ${breakpoint.smUp} {...}
